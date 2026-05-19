@@ -4,12 +4,7 @@ describe("Login page", () => {
     cy.get('[data-test="login-button"]');
   });
   it("should login a user successfully", () => {
-    cy.get('[data-test="login-button"]').click();
-    cy.get('[data-test="input-loginEmail"]').type(
-      "miguelteste983213@gmail.com",
-    );
-    cy.get('[data-test="input-loginPassword"]').type("Me12345678");
-    cy.get('[data-test="submit-button"]').click();
+    cy.login("miguelteste983213@gmail.com", "Me12345678");
   });
   it("should display an error when trying to login a user without filling in the email field", () => {
     cy.get('[data-test="login-button"]').click();
