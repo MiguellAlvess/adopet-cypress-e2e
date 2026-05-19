@@ -1,4 +1,4 @@
-describe("Adopet", () => {
+describe("Registration page", () => {
   it("should register a user successfully", () => {
     cy.visit("https://adopet-frontend-cypress.vercel.app/");
     cy.get('[data-test="register-button"]').click();
