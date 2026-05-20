@@ -1,4 +1,4 @@
-# adopet-cypress-e2e
+# Adopet Cypress - E2E Tests
 
 Projeto simples para prática de testes automatizados utilizando o Cypress na aplicação Adopet.
 
