@@ -154,3 +154,6 @@ cypress/screenshots/
 # Mochawesome
 mochawesome-report/
 mochawesome.json
+
+# Cypress env
+cypress.env.json
